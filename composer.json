@@ -1,0 +1,58 @@
+{
+    "name": "mjamilasfihani/indonesian-translation",
+    "description": "Unofficial Indonesian's translation plugin for Laravel-Lang",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "languages",
+        "lang",
+        "translations",
+        "messages"
+    ],
+    "authors": [
+        {
+            "name": "Mohammad Jamil Asfihani",
+            "email": "mohammadjamilasfihani@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "laravel-lang/publisher": "^14.0 || ^15.0 || ^16.0"
+    },
+    "require-dev": {
+        "laravel-lang/status-generator": "^2.3",
+        "phpunit/phpunit": "^10.0",
+        "symfony/var-dumper": "^6.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JamilTech\\IndonesianTranslation\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JamilTech\\IndonesianTranslation\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "dragon-code/codestyler": true,
+            "ergebnis/composer-normalize": true,
+            "php-http/discovery": true
+        },
+        "prefered-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JamilTech\\IndonesianTranslation\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "scripts": {},
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
