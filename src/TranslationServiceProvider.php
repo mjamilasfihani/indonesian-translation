@@ -35,8 +35,8 @@ class TranslationServiceProvider extends ServiceProvider
      */
     public function registerPlugins()
     {
-        foreach ($this->plugins() as $origin => $plugin) {
-            if (class_exists($origin)) {
+        foreach ($this->plugins() as $package => $plugin) {
+            if (class_exists($package)) {
                 $this->app->register($plugin);
             }
         }
