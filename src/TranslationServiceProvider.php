@@ -3,7 +3,7 @@
 namespace JamilTech\IndonesianTranslation;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelLang\Actions;
+use LaravelLang\Actions\Plugin as ActionsPlugin;
 
 class TranslationServiceProvider extends ServiceProvider
 {
@@ -13,7 +13,7 @@ class TranslationServiceProvider extends ServiceProvider
      * @var array<class-string, class-string>
      */
     protected $plugins = [
-        Actions\Plugin::class => Actions\Plugin::class,
+        ActionsPlugin::class => Actions\Plugin::class,
     ];
 
     /**
