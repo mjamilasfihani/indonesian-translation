@@ -22,6 +22,7 @@
         "laravel-lang/publisher": "^14.0 || ^15.0 || ^16.0"
     },
     "require-dev": {
+        "laravel-lang/actions": "^1.0",
         "laravel-lang/status-generator": "^2.3",
         "phpunit/phpunit": "^10.0",
         "symfony/var-dumper": "^6.3 || ^7.0"
