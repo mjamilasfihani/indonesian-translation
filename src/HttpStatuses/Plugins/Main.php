@@ -1,8 +1,8 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation\HttpStatuses\Plugins;
+namespace JamilAsfi\IndonesianTranslation\HttpStatuses\Plugins;
 
-use JamilTech\IndonesianTranslation\PluginProvider;
+use JamilAsfi\IndonesianTranslation\PluginProvider;
 use LaravelLang\Publisher\Plugins\Plugin;
 
 class Main extends Plugin

@@ -32,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "JamilTech\\IndonesianTranslation\\": "src/"
+            "JamilAsfi\\IndonesianTranslation\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "JamilTech\\IndonesianTranslation\\Tests\\": "tests/"
+            "JamilAsfi\\IndonesianTranslation\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "JamilTech\\IndonesianTranslation\\TranslationServiceProvider"
+                "JamilAsfi\\IndonesianTranslation\\TranslationServiceProvider"
             ]
         }
     },

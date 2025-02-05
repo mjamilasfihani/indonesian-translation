@@ -1,6 +1,6 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation\HttpStatuses;
+namespace JamilAsfi\IndonesianTranslation\HttpStatuses;
 
 use LaravelLang\Publisher\Plugins\Provider;
 

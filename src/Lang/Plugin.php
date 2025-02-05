@@ -1,6 +1,6 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation\Lang;
+namespace JamilAsfi\IndonesianTranslation\Lang;
 
 use LaravelLang\Publisher\Plugins\Provider;
 

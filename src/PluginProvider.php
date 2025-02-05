@@ -1,6 +1,6 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation;
+namespace JamilAsfi\IndonesianTranslation;
 
 class PluginProvider
 {

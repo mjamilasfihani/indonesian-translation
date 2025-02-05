@@ -1,6 +1,6 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation\Attributes;
+namespace JamilAsfi\IndonesianTranslation\Attributes;
 
 use LaravelLang\Publisher\Plugins\Provider;
 

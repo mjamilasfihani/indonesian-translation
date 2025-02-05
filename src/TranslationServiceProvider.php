@@ -1,6 +1,6 @@
 <?php
 
-namespace JamilTech\IndonesianTranslation;
+namespace JamilAsfi\IndonesianTranslation;
 
 use Illuminate\Support\ServiceProvider;
 
