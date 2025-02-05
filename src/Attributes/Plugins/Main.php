@@ -2,6 +2,7 @@
 
 namespace JamilTech\IndonesianTranslation\Attributes\Plugins;
 
+use JamilTech\IndonesianTranslation\PluginProvider;
 use LaravelLang\Publisher\Plugins\Plugin;
 
 class Main extends Plugin
@@ -12,6 +13,9 @@ class Main extends Plugin
 
     public function files(): array
     {
-        return [];
+        return (new PluginProvider([
+            \LaravelLang\Attributes\Plugins\Laravel::class,
+            \LaravelLang\Attributes\Plugins\Lumen::class,
+        ]))->getFiles();
     }
 }
