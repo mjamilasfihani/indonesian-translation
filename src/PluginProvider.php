@@ -2,7 +2,7 @@
 
 namespace JamilAsfi\IndonesianTranslation;
 
-class PluginProvider
+final class PluginProvider
 {
     /**
      * Instance of Files.
@@ -14,7 +14,7 @@ class PluginProvider
     /**
      * Constructor.
      *
-     * @param  class-string<\LaravelLang\Publisher\Plugins\Plugin>[]  $plugins
+     * @param  array<class-string<\LaravelLang\Publisher\Plugins\Plugin>>  $plugins
      * @return void
      */
     public function __construct($plugins)
