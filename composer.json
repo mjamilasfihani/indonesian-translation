@@ -28,8 +28,8 @@
     "require-dev": {
         "laravel-lang/actions": "1.8.10",
         "laravel-lang/attributes": "2.11.4",
-        "laravel-lang/http-statuses": "^3.5",
-        "laravel-lang/lang": "15.16.0",
+        "laravel-lang/http-statuses": "3.8.5",
+        "laravel-lang/lang": "15.16.10",
         "laravel-lang/status-generator": "^2.0",
         "phpunit/phpunit": "^10.0",
         "symfony/var-dumper": "^7.0"
