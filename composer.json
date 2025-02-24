@@ -26,7 +26,7 @@
         "laravel-lang/publisher": "^16.0"
     },
     "require-dev": {
-        "laravel-lang/actions": "^1.0",
+        "laravel-lang/actions": "1.8.10",
         "laravel-lang/attributes": "^2.5",
         "laravel-lang/http-statuses": "^3.5",
         "laravel-lang/lang": "^15.10",
