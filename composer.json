@@ -28,7 +28,7 @@
     "require-dev": {
         "laravel-lang/actions": "^1.0",
         "laravel-lang/attributes": "^2.5",
-        "laravel-lang/http-statuses": "^3.5",
+        "laravel-lang/http-statuses": "3.8.5",
         "laravel-lang/lang": "^15.10",
         "laravel-lang/status-generator": "^2.0",
         "phpunit/phpunit": "^10.0",
