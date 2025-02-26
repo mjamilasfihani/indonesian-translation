@@ -19,10 +19,10 @@
     "require": {
         "php": "^8.2",
         "ext-json": "*",
-        "illuminate/collections": "^11.0",
-        "illuminate/console": "^11.0",
-        "illuminate/container": "^11.0",
-        "illuminate/support": "^11.0",
+        "illuminate/collections": "^11.0 || ^12.0",
+        "illuminate/console": "^11.0 || ^12.0",
+        "illuminate/container": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0",
         "laravel-lang/publisher": "^16.0"
     },
     "require-dev": {
